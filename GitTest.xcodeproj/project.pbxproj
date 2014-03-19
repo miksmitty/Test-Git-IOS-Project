@@ -21,6 +21,7 @@
 		835268C818D9EEB4001D247E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835268AA18D9EEB4001D247E /* UIKit.framework */; };
 		835268D018D9EEB4001D247E /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 835268CE18D9EEB4001D247E /* InfoPlist.strings */; };
 		835268D218D9EEB4001D247E /* GitTestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 835268D118D9EEB4001D247E /* GitTestTests.m */; };
+		835268DD18D9F2E8001D247E /* MSTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 835268DC18D9F2E8001D247E /* MSTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		835268CD18D9EEB4001D247E /* GitTestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GitTestTests-Info.plist"; sourceTree = "<group>"; };
 		835268CF18D9EEB4001D247E /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		835268D118D9EEB4001D247E /* GitTestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitTestTests.m; sourceTree = "<group>"; };
+		835268DB18D9F2E8001D247E /* MSTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MSTest.h; sourceTree = "<group>"; };
+		835268DC18D9F2E8001D247E /* MSTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MSTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		8352689A18D9EEB4001D247E = {
 			isa = PBXGroup;
 			children = (
+				835268DB18D9F2E8001D247E /* MSTest.h */,
+				835268DC18D9F2E8001D247E /* MSTest.m */,
 				835268AC18D9EEB4001D247E /* GitTest */,
 				835268CB18D9EEB4001D247E /* GitTestTests */,
 				835268A518D9EEB4001D247E /* Frameworks */,
@@ -253,6 +258,7 @@
 				835268B718D9EEB4001D247E /* MSAppDelegate.m in Sources */,
 				835268BD18D9EEB4001D247E /* MSViewController.m in Sources */,
 				835268B318D9EEB4001D247E /* main.m in Sources */,
+				835268DD18D9F2E8001D247E /* MSTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
